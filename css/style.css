@@ -7,7 +7,8 @@
  --logo-secondary-color:#000000;
  --adr-contacts-color: rgba(255, 255, 255, 0.6);
  --bkg-page-color:#fffffff;
-}
+ --footer-bkg-color:#2F303A;
+
 
  */
 :root {
@@ -19,6 +20,7 @@
   --logo-secondary-color: #000000;
   --adr-contacts-color: rgba(255, 255, 255, 0.6);
   --bkg-page-color: #ffffff;
+  --footer-bkg-color: #2f303a;
 }
 body {
   color: var(--accent-color);
@@ -47,6 +49,9 @@ header a {
 .pagination .link:focus {
   color: var(--hover-page-color);
 }
+.pagination .link.current {
+  color: var(--hover-page-color);
+}
 /* contacts section */
 .contacts .link {
   color: var(--accent-color);
@@ -56,4 +61,46 @@ header a {
   color: var(--hover-page-color);
 }
 /* main section */
+.main li {
+  list-style-type: none;
+}
 /* hero section */
+.hero {
+  color: var(--white-titel-color);
+  background-color: #2f303a;
+}
+/* botton section */
+.btn {
+  color: var(--white-titel-color);
+  background-color: var(--hover-page-color);
+  border: 4px solid var(--hover-page-color);
+}
+/* title section */
+.section .subsection,
+.section > .title {
+  color: var(--title-color);
+}
+/* footer section */
+.footer {
+  background-color: var(--footer-bkg-color);
+}
+.footer li {
+  list-style-type: none;
+}
+.footer a {
+  text-decoration: none;
+}
+/* logo section */
+.footer .logo {
+  color: var(--logo-primary-color);
+}
+.footer .logo-secondary {
+  color: var(--white-titel-color);
+}
+/* address section */
+.footer > .address {
+  color: var(--white-titel-color);
+}
+.footer .link {
+  color: var(--adr-contacts-color);
+}
