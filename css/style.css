@@ -126,4 +126,7 @@ header a {
 .footer .link {
   color: var(--adr-contacts-color);
 }
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--hover-page-color);
 /* style portofolio */
