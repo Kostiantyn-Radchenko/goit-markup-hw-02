@@ -129,4 +129,6 @@ header a {
 .footer .link:hover,
 .footer .link:focus {
   color: var(--hover-page-color);
+  display: ;
+}
 /* style portofolio */
