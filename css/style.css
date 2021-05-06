@@ -61,8 +61,17 @@ header a {
   color: var(--hover-page-color);
 }
 /* main section */
+/* main index */
 .main li {
   list-style-type: none;
+}
+/* main portofolio */
+.portofolio li {
+  list-style-type: none;
+}
+.portofolio {
+  color: var(--accent-color);
+  background-color: var(--bkg-page-color);
 }
 /* hero section */
 .hero {
@@ -71,13 +80,26 @@ header a {
 }
 /* botton section */
 .btn {
+  color: orange;
+}
+.main .btn {
   color: var(--white-titel-color);
   background-color: var(--hover-page-color);
   border: 4px solid var(--hover-page-color);
 }
+/* botton portfolio page */
+.portofolio .btn {
+  color: var(--title-color);
+  background-color: var(--bkg-page-color);
+}
+.portofolio .btn:hover,
+.portofolio .btn:focus {
+  color: var(--white-titel-color);
+  background-color: var(--hover-page-color);
+}
 /* title section */
 .section .subsection,
-.section > .title {
+.section .title {
   color: var(--title-color);
 }
 /* footer section */
