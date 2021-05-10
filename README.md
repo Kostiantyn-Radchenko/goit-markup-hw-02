@@ -1,1 +1,1 @@
-# for_practic
+# goit-markup-hw-02
